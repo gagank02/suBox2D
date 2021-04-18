@@ -7,13 +7,9 @@ if(NOT TARGET suBox2D)
 
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-            "${suBox2D_PROJECT_ROOT}/src/**/*.h"
-            "${suBox2D_PROJECT_ROOT}/src/**/*.hpp"
             "${suBox2D_PROJECT_ROOT}/src/**/*.cc"
             "${suBox2D_PROJECT_ROOT}/src/**/*.cpp"
             "${suBox2D_PROJECT_ROOT}/src/**/*.c"
-            "${suBox2D_PROJECT_ROOT}/src/*.h"
-            "${suBox2D_PROJECT_ROOT}/src/*.hpp"
             "${suBox2D_PROJECT_ROOT}/src/*.cc"
             "${suBox2D_PROJECT_ROOT}/src/*.cpp"
             "${suBox2D_PROJECT_ROOT}/src/*.c")
